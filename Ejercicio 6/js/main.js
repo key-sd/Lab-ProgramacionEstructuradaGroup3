@@ -1,3 +1,4 @@
+//Determinar si un año ingresado por el usuario es un año bisiesto
 function esBisiesto(año) {
     if ((año % 4 === 0 && año % 100 !== 0) || (año % 400 === 0)) {
         return true;
