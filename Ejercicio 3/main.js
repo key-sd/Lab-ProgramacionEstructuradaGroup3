@@ -1,3 +1,4 @@
+//Crear un programa que permita contar la cantidad de letras y números que contiene una cadena ingresada por el usuario
 function contarLetrasYNumeros(cadena) {
     let cantidadLetras = 0;
     let cantidadNumeros = 0;
@@ -19,8 +20,6 @@ function contarLetrasYNumeros(cadena) {
 
 let entradaUsuario = prompt("Ingrese una cadena de texto:");
 
-
 let resultado = contarLetrasYNumeros(entradaUsuario);
 
-
-alert(`La cadena ingresada contiene ${resultado.cantidadLetras} letras y ${resultado.cantidadNumeros} números.`);
+alert('La cadena ingresada contiene', resultado.cantidadLetras, 'letras y ', resultado.cantidadNumeros, ' números')
