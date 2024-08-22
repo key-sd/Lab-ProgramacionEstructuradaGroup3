@@ -1,3 +1,4 @@
+//Cree un programa que permita determinar todos los números primos desde 0 hasta el número especificado.
 function isPrime(num) {
     if (num < 2) return false; 
     for (let i = 2; i < num; i++) {
@@ -18,8 +19,6 @@ function primeFactorsTo(max) {
     return primes;
 }
 
-
 let maxNumber = parseInt(prompt("Ingrese un número hasta el cual calcular los números primos:"));
-
 
 console.log(primeFactorsTo(maxNumber));
