@@ -22,4 +22,4 @@ let entradaUsuario = prompt("Ingrese una cadena de texto:");
 
 let resultado = contarLetrasYNumeros(entradaUsuario);
 
-alert('La cadena ingresada contiene', resultado.cantidadLetras, 'letras y ', resultado.cantidadNumeros, ' números')
+console.log('La cadena ingresada contiene', resultado.cantidadLetras, 'letras y ', resultado.cantidadNumeros, ' números')
