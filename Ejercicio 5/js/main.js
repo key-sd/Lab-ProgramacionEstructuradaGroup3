@@ -1,3 +1,4 @@
+//Cree un programa que permita convertir de grados a radianes.
 function convertirGradosARadianes(grados) {
     return grados * (Math.PI / 180);
 }
